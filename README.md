@@ -1,31 +1,22 @@
 
-# 🔴⚪ Arsenal: JSON & CSV Streaming
+# 🔴⚪ Arsenal vs. Liverpool
 
-This project streams **real-time Arsenal match data** using **Kafka**. Two types of data are processed:
+# Arsenal vs. Liverpool Live Match Tracker
 
-- **JSON:** Match events (goals, assists, cards, substitutions).
-- **CSV:** Player performance stats (passes, tackles, shots).
+## Overview
+A real-time match tracker simulating goals, cards, and possession updates using **Kafka** and **Matplotlib** for live visualizations.
 
-Both data formats are **produced, streamed, and consumed in real-time**.
+## Features
+- Live match event simulation
+- Kafka producer-consumer pipeline
+- Real-time data processing & visualization
+- Scoreboard updates & alerts
 
----
+## Tech Stack
+- **Python**, **Kafka**, **Matplotlib**, **Pandas**, **Logging**
 
-## 📂 What's Been Done?
+## Project Structure
 
-✅ **Kafka JSON Producer & Consumer** – Streams and processes match events.  
-✅ **Kafka CSV Producer & Consumer** – Tracks player stats and performance.  
-✅ **Custom JSON & CSV Data Files** – Arsenal-themed datasets.  
-✅ **Real-time Alerts** – Goal alerts, key passes, defensive actions.  
-✅ **Kafka Integration** – Set up with `.env` configuration.  
-
----
-
-## ⚙️ Technologies Used
-
-- **Python 3.11**  
-- **Apache Kafka**  
-- **JSON & CSV Streaming**  
-- **Kafka Producers & Consumers**  
 
 
 🔴⚪ **Come on you Gunners!** 🚀
