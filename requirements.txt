@@ -104,3 +104,6 @@ pandas
 
 # Apache Kafka Python client
 kafka-python
+
+# Data visualization
+matplotlib
